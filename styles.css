@@ -42,28 +42,47 @@ body,
   font-size: large;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #9f95b1;
+}
+
 .intro {
   background-color: #c9c4d4;
   height: 50vh;
   text-align: center;
+  scroll-margin-top: calc(90px);
+}
+
+.txt {
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 .prep {
   background-color: #bfb9cb;
   height: 50vh;
+  scroll-margin-top: calc(80px);
 }
 
 .obs {
   background-color: #b4adc2;
   height: 50vh;
+  scroll-margin-top: calc(80px);
 }
 
 .personas {
   background-color: #aaa1ba;
   height: 50vh;
+  scroll-margin-top: calc(80px);
 }
 
 .story {
   background-color: #9f95b1;
   height: 50vh;
+  scroll-margin-top: calc(80px);
 }
