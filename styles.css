@@ -24,6 +24,10 @@ h2 {
   font-size: xx-large;
 }
 
+h3 {
+  font-size: x-large;
+}
+
 p {
   font-size: large;
 }
@@ -79,28 +83,55 @@ a:hover {
 
 .prep {
   background-color: #bfb9cb;
-  height: 50vh;
   text-align: center;
   scroll-margin-top: calc(80px);
 }
 
 .obs {
   background-color: #b4adc2;
-  height: 50vh;
   text-align: center;
   scroll-margin-top: calc(80px);
 }
 
 .personas {
   background-color: #aaa1ba;
-  height: 50vh;
   text-align: center;
   scroll-margin-top: calc(80px);
 }
 
 .story {
   background-color: #9f95b1;
-  height: 50vh;
   text-align: center;
   scroll-margin-top: calc(80px);
+}
+
+details {
+  background-color: #dfdce5;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  font-size: large;
+}
+
+details summary {
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+}
+
+details summary :hover {
+  color: #586474;
+}
+
+.questions {
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.expl {
+  padding-top: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
 }
