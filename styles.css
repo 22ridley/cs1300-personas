@@ -36,7 +36,7 @@ p {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #c9c4d4;
+  background-color: #9f95b1;
   font-family: "Inconsolata";
 }
 
@@ -73,8 +73,7 @@ body {
 .intro {
   background-color: #c9c4d4;
   text-align: center;
-  scroll-margin-top: calc(90px);
-  margin-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 .txt {
@@ -157,6 +156,7 @@ details summary {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
+  text-align: left;
 }
 
 .sides {
