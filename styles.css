@@ -30,6 +30,7 @@ h3 {
 
 p {
   font-size: large;
+  line-height: 22px;
 }
 
 body {
@@ -120,10 +121,6 @@ details summary {
   font-weight: bold;
 }
 
-details summary :hover {
-  color: #586474;
-}
-
 .questions {
   align-items: center;
   padding-top: 30px;
@@ -134,4 +131,35 @@ details summary :hover {
   padding-top: 10px;
   margin-right: 30px;
   margin-left: 30px;
+}
+
+.section {
+  margin-right: 15vw;
+  margin-left: 15vw;
+  /* background-color: #dfdce5; */
+  background: repeating-linear-gradient(#dfdce5, #dfdce5 20.5px, #9f95b1 22px);
+  padding-top: 5px;
+}
+
+.rings {
+  margin-right: 15vw;
+  margin-left: 15vw;
+  background-color: #dfdce5;
+  color: #aaa1ba;
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.paper {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.sides {
+  margin-left: 30px;
+  margin-right: 30px;
 }
