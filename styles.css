@@ -16,7 +16,8 @@ div {
 h1 {
   font-family: Magazine;
   font-size: 100px;
-  margin-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 h2 {
@@ -166,5 +167,10 @@ details summary {
 
 .email {
   color: #3b3347;
+  font-weight: bold;
+}
+
+.name {
+  padding-bottom: 30px;
   font-weight: bold;
 }
