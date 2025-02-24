@@ -61,12 +61,12 @@ body {
   font-size: large;
 }
 
-a {
+.jump {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+.jump:hover {
   color: #9f95b1;
 }
 
@@ -162,4 +162,9 @@ details summary {
 .sides {
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.email {
+  color: #3b3347;
+  font-weight: bold;
 }
