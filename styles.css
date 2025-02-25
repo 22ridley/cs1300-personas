@@ -75,6 +75,7 @@ body {
   background-color: #c9c4d4;
   text-align: center;
   padding-bottom: 40px;
+  scroll-margin-top: calc(80px);
 }
 
 .txt {
@@ -173,4 +174,9 @@ details summary {
 .name {
   padding-bottom: 30px;
   font-weight: bold;
+}
+
+.sketch {
+  border: 8px solid #9f95b1;
+  margin-bottom: 10px;
 }
