@@ -38,7 +38,7 @@ p {
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #9f95b1;
+  background-color: #aaa1ba;
   font-family: "Inconsolata";
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .intro {
-  background-color: #c9c4d4;
+  background-color: #d4d0dc;
   text-align: center;
   padding-bottom: 40px;
   scroll-margin-top: calc(80px);
@@ -85,31 +85,31 @@ body {
 }
 
 .prep {
-  background-color: #bfb9cb;
+  background-color: #c9c4d4;
   text-align: center;
   scroll-margin-top: calc(80px);
 }
 
 .obs {
-  background-color: #b4adc2;
+  background-color: #bfb9cb;
   text-align: center;
   scroll-margin-top: calc(80px);
 }
 
 .personas {
-  background-color: #aaa1ba;
+  background-color: #b4adc2;
   text-align: center;
   scroll-margin-top: calc(80px);
 }
 
 .story {
-  background-color: #9f95b1;
+  background-color: #aaa1ba;
   text-align: center;
   scroll-margin-top: calc(80px);
 }
 
 details {
-  background-color: #dfdce5;
+  background-color: #eae8ee;
   margin-bottom: 30px;
   padding: 20px;
   margin-right: 15vw;
@@ -139,14 +139,14 @@ details summary {
   margin-right: 15vw;
   margin-left: 15vw;
   /* background-color: #dfdce5; */
-  background: repeating-linear-gradient(#dfdce5, #dfdce5 20.5px, #9f95b1 22px);
+  background: repeating-linear-gradient(#eae8ee, #eae8ee 20.5px, #9f95b1 22px);
   padding-top: 5px;
 }
 
 .rings {
   margin-right: 15vw;
   margin-left: 15vw;
-  background-color: #dfdce5;
+  background-color: #eae8ee;
   color: #aaa1ba;
   font-size: xx-large;
   display: flex;
@@ -178,7 +178,7 @@ details summary {
 }
 
 .sketch {
-  border: 8px solid #9f95b1;
+  border: 8px solid #aaa1ba;
   margin-bottom: 10px;
 }
 
@@ -198,11 +198,14 @@ details summary {
   justify-content: space-around;
   padding-bottom: 60px;
   padding-top: 20px;
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 120px;
+  padding-left: 120px;
 }
 
-.persona-txt {
+.persona1-txt {
   padding-left: 7vw;
-  padding-right: 1vw;
+}
+
+.persona2-txt {
+  padding-right: 7vw;
 }
