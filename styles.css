@@ -27,6 +27,7 @@ h2 {
 
 h3 {
   font-size: x-large;
+  padding-top: 20px;
 }
 
 p {
@@ -157,7 +158,7 @@ details summary {
   margin: 0px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: left;
 }
 
@@ -179,4 +180,29 @@ details summary {
 .sketch {
   border: 8px solid #9f95b1;
   margin-bottom: 10px;
+}
+
+.persona1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-left: 130px;
+  padding-right: 120px;
+}
+
+.persona2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.persona-txt {
+  padding-left: 7vw;
+  padding-right: 1vw;
 }
