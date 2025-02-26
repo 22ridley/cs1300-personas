@@ -187,7 +187,7 @@ details summary {
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 130px;
   padding-right: 120px;
 }
@@ -197,7 +197,7 @@ details summary {
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 60px;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 120px;
   padding-left: 120px;
 }
@@ -208,4 +208,10 @@ details summary {
 
 .persona2-txt {
   padding-right: 7vw;
+}
+
+.storyboard {
+  margin-top: 15px;
+  border: 8px solid #d4d0dc;
+  margin-bottom: 30px;
 }
